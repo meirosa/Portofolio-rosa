@@ -79,7 +79,7 @@ export default function Home() {
             </Link>
 
             <a
-              href="/cv/Mei-Rosa-Widyawati-CV.pdf"
+              href="/cv/CV_Mei Rosa Widyawati_SKL.pdf"
               download
               className="flex items-center gap-2 rounded-lg border border-white/20 bg-white/5 px-7 py-3 font-semibold transition hover:bg-white/10"
             >

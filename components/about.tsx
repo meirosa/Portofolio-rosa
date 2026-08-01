@@ -133,7 +133,7 @@ export default function About() {
         Applied Informatics Engineering
       </p>
       <p className="text-3xl font-bold text-slate-900">
-        3.74 / 4.00
+        3.78 / 4.00
       </p>
       <p className="text-sm text-slate-500">
         Current GPA
@@ -145,7 +145,7 @@ export default function About() {
         Associate Degree in Informatics Engineering
       </p>
       <p className="text-2xl font-semibold text-slate-900">
-        3.58 / 4.00
+        3.59 / 4.00
       </p>
     </div>
 

@@ -5,8 +5,8 @@ import Link from "next/link";
 const menus = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
+  { name: "Projects", href: "#projects" },
   { name: "Research", href: "#research" },
   { name: "Certificates", href: "#certificates" },
   { name: "Contact", href: "#contact" },
