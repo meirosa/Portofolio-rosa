@@ -10,7 +10,7 @@ export type Project = {
   title: string;
   category: ProjectCategory;
   type: string;
-
+  figma?: string;
   description: string;
   image: string;
 
@@ -63,7 +63,7 @@ export const projects: Project[] = [
 
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Vercel"],
 
-    image: "/image/1hal1.png",
+    image: "/image/tampilanporto.png",
 
     gallery: [
       "/image/1hal1.png",
@@ -82,7 +82,62 @@ export const projects: Project[] = [
   },
 
   {
-    id: "2",
+  id: "2",
+  title: "FuzzyFlood",
+  category: "web",
+  type: "Web GIS & Research Project",
+
+  description:
+    "A Web GIS application developed to evaluate and map flood vulnerability in Surabaya City by comparing Mamdani, Sugeno, and Tsukamoto Fuzzy Inference System models.",
+
+  objective:
+    "Develop a Web GIS-based system to evaluate and visualize flood vulnerability in Surabaya City while comparing the performance of different Fuzzy Inference System models.",
+
+  features: [
+    "Interactive flood vulnerability mapping",
+    "Visualization of spatial data using an interactive map",
+    "Comparison of Mamdani, Sugeno, and Tsukamoto models",
+    "Flood vulnerability classification",
+    "Flood vulnerability data visualization by district",
+    "Integration of spatial data with analytical results",
+    "Backend API for fuzzy model processing",
+    "Database integration for storing analysis results",
+  ],
+
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "Python",
+    "FastAPI",
+    "Supabase",
+    "PostgreSQL",
+    "Leaflet",
+    "QGIS",
+    "Scikit-Fuzzy",
+  ],
+
+  image: "/image/Fuzzyfloodmouck.png",
+
+  gallery: [
+    "/images/projects/fuzzyflood.png",
+    "/images/projects/fuzzyflood2.png",
+    "/images/projects/fuzzyflood3.png",
+  ],
+
+  featured: false,
+
+  year: "2026",
+  duration: "Final Project",
+  role: "Full-Stack Developer & Researcher",
+  status: "Completed",
+
+  github: "https://github.com/meirosa/Revisi-Code-TA.git",
+  figma: "https://www.figma.com/design/CQRuPI0ATw7XgcHiTA6rtX/MOCKUP-D4?t=SFpubRp5fODOM0KY-0"
+  
+},
+
+  {
+    id: "8",
     title: "PENSSTORE",
     category: "mobile",
     type: "Campus Marketplace Application",
@@ -112,7 +167,7 @@ export const projects: Project[] = [
   },
 
   {
-  id: "3",
+  id: "6",
   title: "User Manual HIS V1 Trustmedis",
   category: "documentation",
   type: "User Manual",
@@ -141,7 +196,7 @@ export const projects: Project[] = [
 },
 
 {
-  id: "4",
+  id: "7",
   title: "Virtu DigiLab Configuration Module",
   category: "documentation",
   type: "User Manual",
@@ -170,7 +225,7 @@ export const projects: Project[] = [
 },
 
 {
-  id: "5",
+  id: "8",
   title: "Virtu DigiLab User Management Module",
   category: "documentation",
   type: "User Manual",
@@ -199,7 +254,7 @@ export const projects: Project[] = [
 },
 
   {
-    id: "6",
+    id: "9",
     title: "QA Automation Framework",
     category: "qa",
     type: "Testing Solution",
