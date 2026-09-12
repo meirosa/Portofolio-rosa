@@ -6,6 +6,7 @@ const menus = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
   { name: "Experience", href: "#experience" },
+  { name: "Activities", href: "#activities" },
   { name: "Projects", href: "#projects" },
   { name: "Research", href: "#research" },
   { name: "Certificates", href: "#certificates" },

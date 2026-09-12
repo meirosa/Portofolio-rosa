@@ -5,6 +5,7 @@ import Stats from "@/components/stats";
 import About from "@/components/about";
 import TechStack from "@/components/techstack";
 import Experience from "@/components/experience";
+import Activities from "@/components/activities";
 import Projects from "@/components/projects";
 import ResearchCertificates from "@/components/ResearchCertificates";
 import Footer from "@/components/footer";
@@ -37,6 +38,10 @@ export default function Page() {
       <Divider />
 
       <Experience />
+
+      <Divider />
+
+      <Activities />
 
       <Divider />
 

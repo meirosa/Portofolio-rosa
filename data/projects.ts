@@ -83,6 +83,61 @@ export const projects: Project[] = [
 
   {
   id: "2",
+  title: "Visualisasi Kerentanan Banjir Surabaya",
+  category: "web",
+  type: "Web GIS Project",
+
+  description:
+    "A flood vulnerability visualization system for Surabaya City using the Fuzzy Mamdani method and open map data.",
+
+  objective:
+    "Develop a web-based visualization system to map flood vulnerability and supporting flood-related facilities in Surabaya City.",
+
+  features: [
+    "Flood vulnerability map",
+    "Flood vulnerability visualization by district",
+    "Fuzzy Mamdani-based flood vulnerability analysis",
+    "Damkar map",
+    "Visualization of flood-related facilities and locations",
+    "Interactive data visualization using Metabase",
+  ],
+
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "Python",
+    "FastAPI",
+    "Supabase",
+    "PostgreSQL",
+    "QGIS",
+    "Scikit-Fuzzy",
+    "Metabase",
+  ],
+
+  image: "/image/image.png",
+
+  gallery: [
+    "/image/visualbanjir.png",
+    "/image/visualbanjirr1.png",
+    "/image/visualbanjir2.png",
+  ],
+
+  featured: false,
+
+  year: "2025",
+
+  duration: "Final Project",
+
+  role: "Full-Stack Developer",
+
+  status: "Completed",
+
+  github: "https://github.com/meirosa/TAD3.git",
+
+  uiux: "https://www.figma.com/design/UK5rQC9I0txwBALn6cYDFm/MOCKUP-D3?node-id=0-1&p=f&t=61lfdkrF2kse2b1B-0",
+},
+  {
+  id: "3",
   title: "FuzzyFlood",
   category: "web",
   type: "Web GIS & Research Project",
@@ -116,12 +171,12 @@ export const projects: Project[] = [
     "Scikit-Fuzzy",
   ],
 
-  image: "/image/Fuzzyfloodmouck.png",
+  image: "/image/icon.png",
 
   gallery: [
-    "/images/projects/fuzzyflood.png",
-    "/images/projects/fuzzyflood2.png",
-    "/images/projects/fuzzyflood3.png",
+    "/image/fuzzyflood.png",
+    "/image/fuzzyflood2.png",
+    "/image/fuzzyflood3.png",
   ],
 
   featured: false,
@@ -132,40 +187,147 @@ export const projects: Project[] = [
   status: "Completed",
 
   github: "https://github.com/meirosa/Revisi-Code-TA.git",
-  figma: "https://www.figma.com/design/CQRuPI0ATw7XgcHiTA6rtX/MOCKUP-D4?t=SFpubRp5fODOM0KY-0"
+  uiux: "https://www.figma.com/design/CQRuPI0ATw7XgcHiTA6rtX/MOCKUP-D4?t=SFpubRp5fODOM0KY-0"
   
 },
 
+{
+  id: "4",
+  title: "Wallink Website",
+  category: "web",
+  type: "Collaborative Web Project",
+
+  description:
+    "A digital link management website designed to help users store, organize, search, and share their important links efficiently.",
+
+  objective:
+    "Develop a user-friendly web platform that helps users manage, access, and share digital links efficiently with minimal interaction.",
+
+  features: [
+    "Link storage and management",
+    "Link categorization",
+    "Search and quick access to saved links",
+    "Favourite links",
+    "Share link collections easily",
+    "Edit, delete, and archive links",
+    "Responsive web interface",
+  ],
+
+  tech: [
+    "TypeScript",
+    "CSS",
+    "JavaScript",
+  ],
+
+  image: "/image/logo-wallink.png",
+
+  gallery: [
+    "/image/wallink.png",
+    "/image/wallink-1.png",
+    "/image/wallink-2.png",
+  ],
+
+  featured: false,
+  year: "2024",
+  duration: "Feb 2024 – Jul 2024",
+
+  role: "Front-End Developer & QA",
+
+  status: "Completed",
+
+  github: "https://github.com/mirza27/wallink_web.git",
+
+  demo: "https://wallink-web.vercel.app/",
+},
+
+{
+  id: "5",
+  title: "Kusuma Cookies",
+  category: "web",
+  type: "Business Website",
+
+  description:
+    "A responsive business website for Kusuma Cookies designed to showcase its Lebaran cookie collection, product details, ordering information, and store location.",
+
+  objective:
+    "Develop a simple and informative website to help customers discover Kusuma Cookies products, view prices, place orders through WhatsApp, and find the store location.",
+
+  features: [
+    "Product showcase",
+    "Product details and pricing",
+    "WhatsApp ordering integration",
+    "Lebaran cookie collection",
+    "Store location with Google Maps",
+    "Responsive web interface",
+  ],
+
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "CSS",
+  ],
+
+  image: "/image/kusumaco.png",
+
+  gallery: [
+    "/image/kusumacookies1.png",
+    "/image/kusumacookies2.png",
+    "/image/kusumacookies3.png",
+  ],
+
+  featured: false,
+
+  year: "2026",
+  duration: "Personal Project",
+
+  role: "Full-Stack Developer",
+
+  status: "Completed",
+
+  github: "https://github.com/meirosa/Kusuma-Cookies.git",
+
+  demo:
+    "https://kusuma-cookies-752f-7gtlf5knp-rosas-projects-97df9ea1.vercel.app/",
+},
   {
-    id: "8",
-    title: "PENSSTORE",
-    category: "mobile",
-    type: "Campus Marketplace Application",
+  id: "19",
+  title: "PENSSTORE",
+  category: "mobile",
+  type: "Campus Marketplace Application",
 
-    description:
-      "A practical Android application created with Kotlin and Jetpack Compose for managing daily tasks and reminders.",
+  description:
+    "A mobile marketplace application developed to provide students with a convenient platform for browsing and purchasing campus stationery and supplies.",
 
-    objective:
-      "Build an Android application that helps users manage daily activities efficiently.",
+  objective:
+    "Develop a mobile marketplace application that makes it easier for students to browse and purchase stationery and campus supplies.",
 
-    features: [
-      "Task management",
-      "Reminder notification",
-      "Firebase integration",
-    ],
+  features: [
+    "Product browsing",
+    "Product category navigation",
+    "Product details",
+    "Shopping cart",
+    "Campus marketplace experience",
+  ],
 
-    tech: ["Kotlin", "Jetpack Compose", "Firebase"],
+  tech: [
+    "Flutter",
+    "Dart",
+  ],
 
-    image: "/image/ilustrasi.png",
+  image: "/image/Logo_Splash.png",
 
-    year: "2025",
-    role: "Android Developer",
-    status: "Completed",
+  year: "2025",
 
-    github: "https://github.com/bayuhadi863/penstore-ecommerce-mobile-app.git",
-    uiux: "figma.com/design/NagymhLiMFzjRdopLGYhrq/Untitled?node-id=0-1",
-  },
+  role: "Mobile Developer",
 
+  status: "Completed",
+
+  github:
+    "https://github.com/bayuhadi863/penstore-ecommerce-mobile-app.git",
+
+  uiux:
+    "https://www.figma.com/file/chsMguRDAOyflOAszveBY2/Untitled?type=design&node-id=0%3A1&mode=design&t=f2HSuGjlksjfcgIU-1",
+},
   {
   id: "6",
   title: "User Manual HIS V1 Trustmedis",
@@ -225,7 +387,7 @@ export const projects: Project[] = [
 },
 
 {
-  id: "8",
+  id: "19",
   title: "Virtu DigiLab User Management Module",
   category: "documentation",
   type: "User Manual",
