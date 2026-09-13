@@ -85,7 +85,7 @@ export default function About() {
       </p>
 
       <p className="text-slate-500">
-        2025 – Present
+        2025 – 2026
       </p>
     </div>
 
