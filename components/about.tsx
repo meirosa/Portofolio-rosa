@@ -135,9 +135,6 @@ export default function About() {
       <p className="text-3xl font-bold text-slate-900">
         3.78 / 4.00
       </p>
-      <p className="text-sm text-slate-500">
-        Current GPA
-      </p>
     </div>
 
     <div className="border-t border-slate-200 pt-4">
