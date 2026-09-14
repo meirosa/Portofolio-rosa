@@ -289,8 +289,52 @@ export const projects: Project[] = [
   demo:
     "https://kusuma-cookies-752f-7gtlf5knp-rosas-projects-97df9ea1.vercel.app/",
 },
+
+{
+  id: "6",
+  title: "Saji Senja Website",
+  category: "web",
+  type: "Business Website",
+
+  description:
+    "A responsive restaurant landing page designed to introduce Saji Senja and showcase its Indonesian cuisine through a warm and authentic visual experience.",
+
+  objective:
+    "Create a modern and responsive restaurant website that presents the brand, food highlights, and restaurant information in an engaging and user-friendly interface.",
+
+  features: [
+    "Responsive restaurant landing page",
+    "Restaurant brand introduction",
+    "Food-focused hero section",
+    "Restaurant navigation",
+    "Call-to-action buttons",
+    "Restaurant information highlights",
+  ],
+
+  tech: [
+    "Angular",
+    "TypeScript",
+    "SCSS",
+    "HTML",
+  ],
+
+  image: "/image/sajisenja.png",
+
+  featured: false,
+  year: "2026",
+  duration: "Sep 2026",
+
+  role: "Front-End Developer",
+
+  status: "In Progress",
+
+  github: "https://github.com/meirosa/saji-senja.git",
+
+  demo: "https://saji-senja.vercel.app/",
+},
+
   {
-  id: "19",
+  id: "50",
   title: "PENSSTORE",
   category: "mobile",
   type: "Campus Marketplace Application",
@@ -329,7 +373,7 @@ export const projects: Project[] = [
     "https://www.figma.com/file/chsMguRDAOyflOAszveBY2/Untitled?type=design&node-id=0%3A1&mode=design&t=f2HSuGjlksjfcgIU-1",
 },
   {
-  id: "6",
+  id: "100",
   title: "User Manual HIS V1 Trustmedis",
   category: "documentation",
   type: "User Manual",
@@ -358,7 +402,7 @@ export const projects: Project[] = [
 },
 
 {
-  id: "7",
+  id: "101",
   title: "Virtu DigiLab Configuration Module",
   category: "documentation",
   type: "User Manual",
@@ -387,7 +431,7 @@ export const projects: Project[] = [
 },
 
 {
-  id: "19",
+  id: "102",
   title: "Virtu DigiLab User Management Module",
   category: "documentation",
   type: "User Manual",
