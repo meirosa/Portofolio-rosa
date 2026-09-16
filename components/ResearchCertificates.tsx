@@ -103,17 +103,6 @@ export default function ResearchCertificates() {
   
 
     {
-      title: "Olimpiade Bahasa Inggris",
-      achievement: "Medali Perunggu",
-      event: "Indonesian Science Olympiad",
-      organizer: "Gantari Competition",
-      year: "2022",
-      level: "Tingkat Nasional",
-      image:
-        "/image/olimpiade-bahasa-matematika-medali-perunggu.png",
-    },
-
-    {
       title: "Olimpiade Matematika",
       achievement: "Medali Perunggu",
       event: "Indonesian Science Olympiad",
@@ -121,7 +110,18 @@ export default function ResearchCertificates() {
       year: "2022",
       level: "Tingkat Nasional",
       image:
-        "/image/olimpiade-inggris-medali-perunggu.png",
+        "/image/olimpiade-bahasa-inggris-medali-perunggu.png",
+    },
+
+    {
+      title: "Olimpiade Bahasa Inggris",
+      achievement: "Medali Perunggu",
+      event: "Indonesian Science Olympiad",
+      organizer: "Gantari Competition",
+      year: "2022",
+      level: "Tingkat Nasional",
+      image:
+        "/image/olimpiade-matematika-medali-perunggu.png",
     },
 
         {
