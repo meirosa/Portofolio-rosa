@@ -110,7 +110,7 @@ export default function ResearchCertificates() {
       year: "2022",
       level: "Tingkat Nasional",
       image:
-        "/image/olimpiade-bahasa-inggris-medali-perunggu.png",
+        "/image/olimpiade-bahasa-matematika-medali-perunggu.png",
     },
 
     {
@@ -121,7 +121,7 @@ export default function ResearchCertificates() {
       year: "2022",
       level: "Tingkat Nasional",
       image:
-        "/image/olimpiade-matematika-medali-perunggu.png",
+        "/image/olimpiade-inggris-medali-perunggu.png",
     },
 
         {
